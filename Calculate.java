@@ -12,7 +12,7 @@ public class Calculate {
 		System.out.println("Calculate..");
 		int first = Integer.valueOf(arg[0]);
 		int second = Integer.valueOf(arg[1]);
-		int razn = first - second;
-		System.out.println("Raznica "+ razn);
+		int pro = first * second;
+		System.out.println("Proizved "+pro);
 	}
 }
